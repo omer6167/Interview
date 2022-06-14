@@ -7,7 +7,7 @@ namespace Interview.Entity
         [Key]
         public int Id { get; set; }
         public int SepetId { get; set; }
-        public double Tutar { get; set; }
+        public int Tutar { get; set; }
         public string Aciklama { get; set; }
     }
 }

@@ -21,6 +21,11 @@ builder.Services.AddScoped<ISepetDal, EfSepetDal>();
 builder.Services.AddScoped<ISepetUrunService, SepetUrunManager>();
 builder.Services.AddScoped<ISepetUrunDal, EfSepetUrunDal>();
 
+builder.Services.AddScoped<ITestVeriService, TestVeriManager>();
+builder.Services.AddScoped<ITestVerisiDal, EfTestVerisiDal>();
+
+builder.Services.AddScoped<IAnalizService, AnalizManager>();
+builder.Services.AddScoped<IAnalizDal, EfAnalizDal>();
 
 
 

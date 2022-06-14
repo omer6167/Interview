@@ -8,7 +8,7 @@ namespace Interview.DataAccess
     {
         public List<ReportByTotalAmountDto> GetToplamSatis()
         {
-
+         
 
             return new List<ReportByTotalAmountDto>();
         }

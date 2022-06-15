@@ -4,7 +4,7 @@ using Interview.Entity;
 
 namespace Interview.DataAccess
 {
-    public class EfSepetDal : EfEntityRepositoryBase<Sepet, Context>,ISepetDal
+    public class EfSepetDal : EfEntityRepositoryBase<Sepet, Context>, ISepetDal
 
     {
     }

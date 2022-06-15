@@ -27,9 +27,9 @@ public class SepetsController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Add(Sepet musteri)
+    public IActionResult Add(Sepet sepet)
     {
-        _sepetService.Add(musteri);
+        _sepetService.Add(sepet);
         return Ok();
     }
 }

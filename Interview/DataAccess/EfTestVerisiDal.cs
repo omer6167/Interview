@@ -16,6 +16,7 @@ namespace Interview.DataAccess
             _musteriDal = musteriDal;
             _sepetUrunDal = sepetUrunDal;
         }
+
         public void TestVerisiOlustur(int musteriAdet, int sepetAdet)
         {
             int musteriSonId = _musteriDal.GetAll().Max(m => m.Id);
